@@ -1,6 +1,10 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, sans-serif;
     margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 a:link,
@@ -139,3 +143,47 @@ ul {
 
 
 
+
+
+.fourth-section {
+    background-color: #3882F6;
+    border-radius: 8px;;
+    margin: 150px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 0;
+}
+
+.call-header {
+    font-size: 24px;;
+}
+
+.call-text {
+    font-size: 18px;
+}
+
+.call-button {
+    border: 2px solid black;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+    padding: 0 8px;
+}
+
+
+
+
+.footer-stuff {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
