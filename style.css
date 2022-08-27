@@ -52,7 +52,6 @@ ul {
 .top-section-content {
     display: flex;
     justify-content: space-between;
-    align-items: stretch;
     flex-wrap: wrap;
 }
 
@@ -66,7 +65,7 @@ ul {
 
 .awesome-title {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 700;
     margin-bottom: 0;
     padding: 0;
 }
@@ -95,10 +94,17 @@ ul {
     color: #1F2937;  
 }
 
-.random-info-content {
+.content-wrapper {
+    flex: 1;
+    justify-content: space-around;
+    padding: 0;
+}
+
+.box-uno {
+    width: 150px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: ;
 }
 
 .blue-box {
@@ -107,14 +113,16 @@ ul {
     background-color: #ffffff;
     border: 4px solid #3882F6;
     border-color: #3882F6;
-    border-radius: 8px;
-    flex: 1 0 auto;
+    border-radius: 10px;
+    flex: 0 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
-.boxes {
+.word-boxes {
     text-align: center;
-    font-size: 18px;
-    color: #E5E7EB;
+    font-size: 16px;
+    margin-top: 5px;
 }
 
 
@@ -133,13 +141,15 @@ ul {
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: 100s;
+    font-weight: 100;
+    margin-bottom: 0;
 }
 
 .quote-refrence {
     display: flex;
     justify-content: flex-end;
     font-weight: bold;
+    margin: 5 0 0 0;
 }
 
 
